@@ -1,0 +1,75 @@
+---
+title: "P8140: Introduction to Randomized Clinical Trials"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<style>
+  body {
+    text-align: justify; 
+  }
+
+  h2 {
+    font-weight: bold; 
+    font-size: 22px; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-left: 0; 
+    text-indent: 0; 
+  }
+  
+  p, .course-summary {
+    font-size: 18px; 
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999; 
+  }
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const headerHeight = 200; 
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault(); 
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+
+      if (targetElement) {
+        const elementTop = targetElement.getBoundingClientRect().top + window.pageYOffset;
+        const scrollToPosition = elementTop - headerHeight; 
+
+        window.scrollTo({
+          top: scrollToPosition,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+</script>
+
+  <h2>1&#46; Course Overview</h2>
+
+  <p>This course covers the fundamental methods and concepts essential for conducting randomized clinical trials, including protocol development, randomization, blindedness, patient recruitment, informed consent, compliance, sample size determination, crossovers, and collaborative trials. </p>
+  
+  <p>As part of the coursework, I prepared and submitted a protocol for a hypothetical clinical trial, applying the principles learned throughout the course.</p>
+  
+  <h2>2&#46; Academic Project</h2>
+
+<div>
+  <h2>2&#46; Assessment of Bioequivalence between a test drug and a reference drug</h2>
+
+  <p>
+
+</p>
+  <iframe src="pdf/P8144_1.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/P8144_project1.pdf">Download PDF</a>.
+  </iframe>
+</div>

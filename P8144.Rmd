@@ -1,0 +1,123 @@
+---
+title: "P8144: Pharmaceutical Statistics"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<style>
+  body {
+    text-align: justify; 
+  }
+
+  h2 {
+    font-weight: bold; 
+    font-size: 22px; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-left: 0; 
+    text-indent: 0; 
+  }
+  
+  p, .course-summary {
+    font-size: 18px; 
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999; 
+  }
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const headerHeight = 200; 
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault(); 
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+
+      if (targetElement) {
+        const elementTop = targetElement.getBoundingClientRect().top + window.pageYOffset;
+        const scrollToPosition = elementTop - headerHeight; 
+
+        window.scrollTo({
+          top: scrollToPosition,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+</script>
+
+  <h2>1&#46; Course Overview</h2>
+
+  <p>Drug development from compound discovery to marketing and commercialization registration is a 
+lengthy and complex process in which statisticians play an important role from beginning to end. The 
+main objective of this course is to provide students with working knowledge of the methodological and 
+operational issues that arise in different stages of drug development that involve statistical contributions</p>
+  
+  <p>I engaged in hands-on projects using SAS to analyze sample data given by the professor, followed by composing detailed statistical reports. The course is taught by Professor Naitee Ting, who brings extensive experience in biostatistics and its application in pharmaceutical development.</p>
+  
+  
+  <h2>2&#46; Academic Projects</h2>
+- [Project 1: Assessment of Bioequivalence between a test drug and a reference drug](#P8144_project1)
+- Utilized ANOVA to assess bioequivalence.
+
+- [Project 2: Dose-Response Study: A Categorical Data Analysis](#P8144_project2)
+- Applied the Cochran–Mantel–Haenszel (CMH) test for dosage effectiveness, Gatekeeping to control Type I error, and Breslow-Day test for interaction analysis.
+
+- [Project 3: Effectiveness of Combined DMARD and NSAID Therapy Versus NSAIDalone in Rheumatoid Arthritis：A Multi-center Study](#P8144_project3)
+- Employed CMH and ANCOVA for treatment efficacy and Kaplan-Meier analysis for treatment duration, focusing on ACR20 response and secondary metrics like joint counts and C-reactive protein.
+
+<div id="P8144_project1">
+
+  <h2>2.1. Assessment of Bioequivalence between a test drug and a reference drug</h2>
+
+  <p>
+This report analyzes the sample data given by the professor. It evaluates the bioequivalence of a test drug and a reference drug using a crossover design with 28 subjects divided into four sequences.
+
+Utilizing ANOVA and adhering to FDA guidelines, the study compares pharmacokinetic parameters (AUC and Cmax) to ensure the geometric mean ratio falls within the 0.8 to 1.25 range, confirming similar drug absorption and action.
+
+</p>
+  <iframe src="pdf/P8144_1.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="pdf/P8144_1.pdf">Download PDF</a>.
+  </iframe>
+</div>
+
+<div id="P8144_project2">
+  <h2>2.2. Dose-Response Study: A Categorical Data Analysis</h2>
+
+  <p>
+This report analyzes sample data to study the dose-response relationship of a test drug versus placebo in 217 participants across nine centers, categorized into four dosage groups. 
+  
+We employ the Cochran–Mantel–Haenszel (CMH) test to evaluate the effectiveness of various dosages, and the Gatekeeping procedure to manage the Type I error rate across comparisons. For the interaction test, we apply the Breslow-Day test to explore interactions between sex and treatment efficacy. 
+
+Findings indicate a significant dose-response trend, demonstrating efficacy across increasing dosages, consistent across both genders.
+
+</p>
+  <iframe src="pdf/P8144_2.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="pdf/P8144_2.pdf">Download PDF</a>.
+  </iframe>
+</div>
+
+<div id="P8144_project3">
+  <h2>2.3. Effectiveness of Combined DMARD and NSAID Therapy Versus NSAIDalone in Rheumatoid Arthritis：A Multi-center Study</h2>
+  
+  <p>
+Using a sample of 181 patients across 27 centers, this study compares the effectiveness of combined Disease-Modifying Anti-Rheumatic Drugs (DMARDs) and Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) therapy versus NSAID alone in managing Rheumatoid Arthritis (RA). 
+  
+We utilized the Cochran-Mantel-Haenszel test and Analysis of Covariance (ANCOVA) to analyze treatment efficacy, and Kaplan-Meier analysis to assess treatment duration until discontinuation. The primary endpoint was the American College of Rheumatology 20 (ACR20) response, with secondary measurements including joint counts and C-reactive protein levels. 
+
+Findings revealed that combined therapy patients were 2.5 times more likely to achieve an ACR20 response. However, Kaplan-Meier analysis showed no significant difference in treatment discontinuation due to lack of efficacy, highlighting the need for personalized treatment approaches. 
+
+</p>
+  <iframe src="pdf/P8144_3.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="pdf/P8144_3.pdf">Download PDF</a>.
+  </iframe>
+</div>

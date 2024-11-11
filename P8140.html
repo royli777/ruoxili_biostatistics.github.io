@@ -11,7 +11,7 @@
 
 
 
-<title>Ruoxi Li</title>
+<title>P8140: Introduction to Randomized Clinical Trials</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -224,69 +221,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -294,16 +228,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -320,7 +244,10 @@ div.tocify {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="dropdown">
+        <li>
+  <a href="RE.html">Publications &amp; Research Experience</a>
+</li>
+<li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Academic Projects
      
@@ -358,38 +285,90 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Ruoxi Li</h1>
+<h1 class="title toc-ignore">P8140: Introduction to Randomized Clinical
+Trials</h1>
 
 </div>
 
 
-<div id="general-information" class="section level2">
-<h2>General Information</h2>
-<p>I am Ruoxi Li, a graduate student specializing in Biostatistics at
-Columbia University’s Irving Medical Center. Holding a Bachelor’s degree
-in Medicine, my research interest foucus on</p>
-</div>
-<div id="facts-about-me" class="section level2">
-<h2>Facts about me</h2>
-<ol style="list-style-type: decimal">
-<li><p>In terms of technical skills, I primarily utilize R and python
-for data analysis. Additionally, I have practical experience with SAS
-and SPSS, allowing me to proficiently handle and analyze data using
-these tools.</p></li>
-<li><p>I grew up in Wuhan and received my undergraduate education at one
-of top medical colleges in China. During the pandemic, I was presented
-with numerous opportunities to strengthen my skills. This challenging
-period deepened my commitment to improve health and well-being.</p></li>
-<li><p>I have a cow cat in China. <img src="kitty.jpg" /></p></li>
-</ol>
-<p>Learn more about my academic and professional experience: <a
-href="change%20to%20updated%20resume">resume</a></p>
+<style>
+  body {
+    text-align: justify; 
+  }
+
+  h2 {
+    font-weight: bold; 
+    font-size: 22px; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-left: 0; 
+    text-indent: 0; 
+  }
+  
+  p, .course-summary {
+    font-size: 18px; 
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999; 
+  }
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const headerHeight = 200; 
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault(); 
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+
+      if (targetElement) {
+        const elementTop = targetElement.getBoundingClientRect().top + window.pageYOffset;
+        const scrollToPosition = elementTop - headerHeight; 
+
+        window.scrollTo({
+          top: scrollToPosition,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+</script>
+<h2>
+1. Course Overview
+</h2>
+<p>
+This course covers the fundamental methods and concepts essential for
+conducting randomized clinical trials, including protocol development,
+randomization, blindedness, patient recruitment, informed consent,
+compliance, sample size determination, crossovers, and collaborative
+trials.
+</p>
+<p>
+As part of the coursework, I prepared and submitted a protocol for a
+hypothetical clinical trial, applying the principles learned throughout
+the course.
+</p>
+<h2>
+2. Academic Project
+</h2>
+<div>
+<h2>
+2. Assessment of Bioequivalence between a test drug and a reference drug
+</h2>
+<p>
+</p>
+<p><iframe src="pdf/P8144_1.pdf" width="100%" height="600px"> This
+browser does not support PDFs. Please download the PDF to view it:
+<a href="pdfs/P8144_project1.pdf">Download PDF</a>. </iframe></p>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -422,35 +401,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

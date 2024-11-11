@@ -4,14 +4,14 @@ navbar:
   title: "Home"
   type: default
   left:
-    - text: "Home"
-      href: index.html
+    - text: "Publications & Research Experience"
+      href: RE.html
     - text: "Academic Projects"
       menu:
-        - text: "P8144: Pharmaceutical Statistics"
-          href: about.html
         - text: "P8140: Introduction to Randomized Clinical Trials"
-          href: about.html
+          href: P8140.html
+        - text: "P8144: Pharmaceutical Statistics"
+          href: P8144.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<rl3401@cumc.columbia.edu>
