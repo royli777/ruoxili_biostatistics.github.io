@@ -14,6 +14,8 @@ navbar:
           href: P8140.html
         - text: "P8144: Pharmaceutical Statistics"
           href: P8144.html
+    - text: "CV"
+      href: CV.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<rl3401@cumc.columbia.edu>

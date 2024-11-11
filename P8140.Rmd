@@ -59,8 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <h2>1&#46; Course Overview</h2>
 
   <p>This course covers the fundamental methods and concepts essential for conducting randomized clinical trials, including protocol development, randomization, blindedness, patient recruitment, informed consent, compliance, sample size determination, crossovers, and collaborative trials. </p>
-  
-  <p>As part of the coursework, I prepared and submitted a protocol for a hypothetical clinical trial, applying the principles learned throughout the course.</p>
+</p>
   
   <h2>2&#46; Academic Project</h2>
 
@@ -68,9 +67,12 @@ document.addEventListener("DOMContentLoaded", () => {
   <h2>Proposal: Duloxetine Versus Escitalopram in Generalized Anxiety Disorder: A Randomized Controlled Trial</h2>
 
   <p>
+As part of the coursework, I prepared and submitted a protocol for a hypothetical clinical trial, applying the principles learned throughout the course.
+
 This project proposes a randomized, phase 3 clinical trial to directly compare the efficacy of Duloxetine and Escitalopram, two first-line pharmacotherapies, in reducing anxiety symptoms among adults aged 18 to 80 diagnosed with generalized anxiety disorder (GAD) based on DSM-5-TR criteria. Conducted over an 8-week period, this trial will assess symptom reduction across a diverse U.S. sample, addressing the current lack of randomized studies comparing these two treatments and aiming to provide clearer guidance for clinicians treating GAD.
+
 </p>
   <iframe src="pdf/P8140.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/P8140.pdf">Download PDF</a>.
+    This browser does not support PDFs. Please download the PDF to view it: <a href="pdf/P8140.pdf">Download PDF</a>.
   </iframe>
 </div>

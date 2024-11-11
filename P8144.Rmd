@@ -57,11 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
   <h2>1&#46; Course Overview</h2>
-
-  <p>Drug development from compound discovery to marketing and commercialization registration is a 
-lengthy and complex process in which statisticians play an important role from beginning to end. The 
-main objective of this course is to provide students with working knowledge of the methodological and 
-operational issues that arise in different stages of drug development that involve statistical contributions</p>
   
   <p>I engaged in hands-on projects using SAS to analyze sample data given by the professor, followed by composing detailed statistical reports. The course is taught by Professor Naitee Ting, who brings extensive experience in biostatistics and its application in pharmaceutical development.</p>
   
