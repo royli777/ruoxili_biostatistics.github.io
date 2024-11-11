@@ -61,10 +61,10 @@ document.addEventListener("DOMContentLoaded", () => {
   <p>This course covers the fundamental methods and concepts essential for conducting randomized clinical trials, including protocol development, randomization, blindedness, patient recruitment, informed consent, compliance, sample size determination, crossovers, and collaborative trials. </p>
 </p>
   
-  <h2>2&#46; Academic Project</h2>
+  <h2>2&#46; Trial Proposal</h2>
 
 <div>
-  <h2>Proposal: Duloxetine Versus Escitalopram in Generalized Anxiety Disorder: A Randomized Controlled Trial</h2>
+  <h2>Duloxetine Versus Escitalopram in Generalized Anxiety Disorder: A Randomized Controlled Trial</h2>
 
   <p>
 As part of the coursework, I prepared and submitted a protocol for a hypothetical clinical trial, applying the principles learned throughout the course.
