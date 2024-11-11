@@ -80,48 +80,48 @@ document.addEventListener("DOMContentLoaded", () => {
   <p>
 - Graduate Practicum, 05/2024-Present
 
-- Supervisor: Professor. Tian Gu, Assistant Professor, Department of Biostatistics, Columbia University Mailman School of Public Health
+- Supervisor: Professor Tian Gu, Assistant Professor, Department of Biostatistics, Columbia University Mailman School of Public Health
 
 - Review fairness modeling approaches in supervised learning and develop a model optimizing the existing Joint Fairness Model with an Angle-Based Similarity Penalty, ensuring fairness and high prediction across diverse populations.
 
 - Conduct Python simulations to evaluate the model against existing models across broad scenarios.
 </p>
 </div>
-
-<div id="RE_project2">
-  <h2>2.2. Expression profile of plasma microRNAs associated with polycyclic aromatic hydrocarbon exposure</h2>
-
+ <div id="RE_project2">   
+ 
+ <h2>2.2. Expression profile of plasma microRNAs associated with polycyclic aromatic hydrocarbon exposure</h2>    
+ 
   <p>
-- Undergraduate Thesis (Chinese full text with English Abstract in Page III-Page IV), 12/2022-05/2023
+- Undergraduate Thesis (Chinese full text with English Abstract in Page III-Page IV), 12/2022-05/2023 
 
-- Supervisor: Professor. Tangchun Wu, Academician of Chinese Academy of Engineering; Dean of Tongji Medical College of Huazhong University of Science and Technology 
+- Supervisor: Professor Tangchun Wu, Academician of Chinese Academy of Engineering; Dean of Tongji Medical College of Huazhong University of Science and Technology   
 
-- [2.2.1. English Abstract Short Version](#RE_project2.1)
+- [2.2.1. English Abstract Short Version](#RE_project21)  
 
-- [2.2.2. Chinese Full Text with English Abstract (Page III - Page IV)](#RE_project2.2)
+- [2.2.2. Chinese Full Text with English Abstract (Page III - Page IV)](#RE_project22) 
+
 </p>
 
-<div id="RE_project2.1">
-  <h2>2.2.1. English Abstract Short Version</h2>
+<div id="RE_project21">  
+<h2>2.2.1. English Abstract Short Version</h2>  
+
   <p>
-Introduction: Polycyclic aromatic hydrocarbons (PAHs) are linked to changes in microRNA (miRNA) expression, affecting gene expression and various biological processes. This study aims to explore miRNAs associated with PAH exposure in a generally healthy community population, seeking to understand the potential health effects and biological mechanisms involved.
+Introduction: Polycyclic aromatic hydrocarbons (PAHs) are linked to changes in microRNA (miRNA) expression, affecting gene expression and various biological processes. This study aims to explore miRNAs associated with PAH exposure in a generally healthy community population, seeking to understand the potential health effects and biological mechanisms involved.  
 
-Methods: In the Shiyan community, 160 participants were studied, measuring urinary monohydroxy PAHs and plasma benzo[a]pyrene-diol-epoxide adducts as PAH exposure biomarkers. Plasma miRNA levels were quantified using RNA sequencing, with relationships assessed via multivariable linear regression. Stratified and interaction analyses considered factors like age, sex, BMI, and smoking status. Candidate target genes for identified miRNAs were explored using several databases, with gene function enrichment analyzed via the DAVID database.
+Methods: In the Shiyan community, 160 participants were studied, measuring urinary monohydroxy PAHs and plasma benzo[a]pyrene-diol-epoxide adducts as PAH exposure biomarkers. Plasma miRNA levels were quantified using RNA sequencing, with relationships assessed via multivariable linear regression. Stratified and interaction analyses considered factors like age, sex, BMI, and smoking status. Candidate target genes for identified miRNAs were explored using several databases, with gene function enrichment analyzed via the DAVID database.  
 
-Results: Significant associations were found between specific PAH metabolites and 42 miRNAs, with four showing strong connections under more rigorous criteria. Stratified analyses highlighted age, smoking status, and BMI as influential factors in these relationships. Target gene functions for these miRNAs were linked to several critical biological processes and diseases, indicating broad systemic effects.
+Results: Significant associations were found between specific PAH metabolites and 42 miRNAs, with four showing strong connections under more rigorous criteria. Stratified analyses highlighted age, smoking status, and BMI as influential factors in these relationships. Target gene functions for these miRNAs were linked to several critical biological processes and diseases, indicating broad systemic effects.  
 
-Conclusions: This study identified specific miRNAs significantly associated with PAH exposure in a generally healthy community, implicating these miRNAs in potentially mediating health impacts like cancer, cardiovascular diseases, and immune responses. These findings suggest that miRNAs could be crucial in the body's response to environmental toxins.
+Conclusions: This study identified specific miRNAs significantly associated with PAH exposure in a generally healthy community, implicating these miRNAs in potentially mediating health impacts like cancer, cardiovascular diseases, and immune responses. These findings suggest that miRNAs could be crucial in the body's response to environmental toxins.  
 
-</p>
-</div>
-<div id="RE_project2.2">
-  <h2>2.2.2. Chinese Full Text with English Abstract</h2>
-  <iframe src="pdf/RE_2.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: <a href="pdf/RE_2.pdf">Download PDF</a>.
-  </iframe>
-
-</div>
-
+</p> 
+</div>  
+<div id="RE_project22">   
+<h2>2.2.2. Chinese Full Text with English Abstract</h2>  
+<iframe src="pdf/RE_2.pdf" width="100%" height="600px">     
+This browser does not support PDFs. Please download the PDF to view it: <a href="pdf/RE_2.pdf">Download PDF</a>.  
+</iframe>  
+</div> 
 
 <div id="RE_project3">
   <h2>2.3. The Causal Relationship between Insomnia and Major Depressive Disorder: A Mendelian Randomization Analysis</h2>
@@ -129,7 +129,7 @@ Conclusions: This study identified specific miRNAs significantly associated with
   <p>
 - Student Researcher & Program Leader, 04/2020-04/2022  
 
-- Supervisor: Professor Chaolong Wang, Professor and Deputy Dean, Department of Epidemiology and Biostatistics, School of Public Health, Huazhong University of Science and Technology
+- Supervisor: Professor Chaolong Wang, Professor, Department of Epidemiology and Biostatistics, School of Public Health, Huazhong University of Science and Technology
 
 - This funded provincial Undergraduate Training Program in Innovation and Entrepreneurship was initiated and led by me, in collaboration with four classmates under the guidance of Professor Chaolong Wang.
 
@@ -137,7 +137,7 @@ Conclusions: This study identified specific miRNAs significantly associated with
 
 - Resulted in a first-author publication. Professor Xingjie Hao served as the corresponding author and the advisor throughout the writing and publication process.
 
-- Chinese Full Text with English Abstract: [Li, R., Zhang, Q., Rao, A., Huo, Z., Da, W., Hao, X. (2023). The causal relationship between insomnia and major depressive disorder: a Mendelian randomization analysis. Military Medical Journal of South China, 37.02:140-3. (in Chinese) ](https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2023&filename=HNGY202302011&uniplatform=OVERSEA&v=xGXFm1JokIhOzGldnmXUi-m6yZkeaTx0wGBb-LFK2caBOO1RFV0G3Vl6_bI1OUoY)
+- Chinese Full Text with English Abstract: [Li, R., Zhang, Q., Rao, A., Huo, Z., Da, W., Hao, X. (2023). The causal relationship between insomnia and major depressive disorder: a Mendelian randomization analysis. Military Medical Journal of South China, 37.02:140-3. ](https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2023&filename=HNGY202302011&uniplatform=OVERSEA&v=xGXFm1JokIhOzGldnmXUi-m6yZkeaTx0wGBb-LFK2caBOO1RFV0G3Vl6_bI1OUoY)
 
 </div>
 
