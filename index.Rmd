@@ -1,9 +1,37 @@
 ---
-title: "My Website"
+title: "Ruoxi Li"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cosmo
+    navbar:
+      title: "Test"
+      type: default
+      left:
+        - text: "Home"
+          href: index.html
+        - text: "Academic Projects"
+          href: about.html
 ---
 
-Hello, Website!
+## General Information
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+I am Ruoxi Li, a graduate student specializing in Biostatistics at Columbia University's Irving Medical Center. Holding a Bachelor's degree in Preventive Medicine, my academic foundation is deeply rooted in the prevention and mitigation of health risks. My passion lies in harnessing the power of biostatistical methods to address medical challenges, with a particular focus on clinical trials and the development of new drugs.
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+## Skills
+
+In terms of technical skills, I primarily utilize R for data analysis. Additionally, I have practical experience with SAS and SPSS, allowing me to proficiently handle and analyze data using these tools.
+
+## Facts about me
+
+1. My previous internships were in hospitals, disease control centers, and public health service centers in various places. I am currently seeking internship opportunities in the industry.
+
+2. I grew up in Wuhan and received my undergraduate education at the city's top medical college. During the pandemic, I was presented with numerous opportunities to strengthen my skills. This challenging period deepened my commitment to improve health and well-being.
+
+3. I am a TV series enthusiast.
+
+4. I have a cow cat in China.
+![](kitty.jpg)
+
+Learn more about my academic and professional experience: [resume](About-me.html)

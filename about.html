@@ -11,12 +11,12 @@
 
 
 
-<title>About This Website</title>
+<title>Academic Project</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -32,6 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -238,19 +240,27 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">My Website</a>
+      <a class="navbar-brand" href="index.html">Home</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="about.html">About</a>
+  <a href="about.html">P8140 Intro to RCT</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="mailto:&lt;rl3401@cumc.columbia.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/royli777">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -260,12 +270,85 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About This Website</h1>
+<h1 class="title toc-ignore">Academic Project</h1>
 
 </div>
 
 
-<p>More about this website.</p>
+cat(’
+<html>
+<head>
+<style>
+    /* 隐藏所有课程内容，只有选择后才显示 */
+    .content { display: none; margin-top: 20px; }
+    /* 提供基本的按钮样式，使其更显眼 */
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+<script>
+    // 切换显示的课程内容
+    function toggleContent(courseId) {
+        // 隐藏所有内容部分
+        var contents = document.getElementsByClassName("content");
+        for (var i = 0; i < contents.length; i++) {
+            contents[i].style.display = "none";
+        }
+        // 显示所选的课程内容
+        var selectedContent = document.getElementById(courseId);
+        if (selectedContent) {
+            selectedContent.style.display = "block";
+        }
+    }
+
+    // 显示选定的 PDF
+    function showPDF(pdfUrl) {
+        document.getElementById("pdfFrame").src = pdfUrl;
+    }
+  </script>
+</head>
+<body>
+<!-- 顶层课程按钮 -->
+<div style="margin-bottom: 20px;">
+<p><button onclick="toggleContent(\'P8144\')">P8144: Pharmaceutical
+Statistics</button> <button onclick="toggleContent(\'P8140\')">P8140:
+Introduction to Randomized Clinical Trials</button></p>
+</div>
+<!-- P8144 课程内容 -->
+<div id="P8144" class="content">
+<h2>
+P8144: Pharmaceutical Statistics
+</h2>
+<p>
+这门课介绍了药物统计学的基本原理和应用，包括药物研发中的统计设计与分析。
+</p>
+<p><button onclick="showPDF(\'pdfs/P8144_project1.pdf\')">查看 Project 1
+PDF</button> <button onclick="showPDF(\'pdfs/P8144_project2.pdf\')">查看
+Project 2 PDF</button></p>
+</div>
+<!-- P8140 课程内容 -->
+<div id="P8140" class="content">
+<h2>
+P8140: Introduction to Randomized Clinical Trials
+</h2>
+<p>
+这门课介绍了随机化临床试验的设计与实施，包括控制组、样本量计算等重要内容。
+</p>
+<p><button onclick="showPDF(\'pdfs/P8140_project1.pdf\')">查看 Project 1
+PDF</button> <button onclick="showPDF(\'pdfs/P8140_project2.pdf\')">查看
+Project 2 PDF</button></p>
+</div>
+<!-- PDF 显示区域 -->
+<iframe id="pdfFrame" width="100%" height="500px" style="margin-top: 20px;">
+This browser does not support PDFs. Please download the PDF to view it:
+<a href="">Download PDF</a>.
+</iframe>
+</body>
+</html>
+<p>’)</p>
 
 
 

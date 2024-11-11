@@ -1,8 +1,15 @@
-name: "my-website"
+name: "Yay internet!"
+output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Home"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
+    - text: "P8140 Intro to RCT"
       href: about.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<rl3401@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: https://github.com/royli777
+output:
+  html_document:
+    theme: cosmo
