@@ -2,9 +2,16 @@ name: "Yay internet!"
 output_dir: "."
 navbar:
   title: "Home"
+  type: default
   left:
-    - text: "P8140 Intro to RCT"
-      href: about.html
+    - text: "Home"
+      href: index.html
+    - text: "Academic Projects"
+      menu:
+        - text: "P8144: Pharmaceutical Statistics"
+          href: about.html#P8144
+        - text: "P8140: Introduction to Randomized Clinical Trials"
+          href: about.html#P8140
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<rl3401@cumc.columbia.edu>
