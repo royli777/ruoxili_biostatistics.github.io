@@ -4,15 +4,6 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cosmo
-    navbar:
-      title: "Test"
-      type: default
-      left:
-        - text: "Home"
-          href: index.html
-        - text: "Academic Projects"
-          href: about.html
 ---
 
 ## General Information

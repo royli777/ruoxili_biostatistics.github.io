@@ -5,72 +5,17 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+# Academic Projects
 ```
-cat('
-<html>
-<head>
-  <style>
-    /* 隐藏所有课程内容，只有选择后才显示 */
-    .content { display: none; margin-top: 20px; }
-    /* 提供基本的按钮样式，使其更显眼 */
-    button {
-      padding: 10px 20px;
-      margin: 5px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-  </style>
-  <script>
-    // 切换显示的课程内容
-    function toggleContent(courseId) {
-        // 隐藏所有内容部分
-        var contents = document.getElementsByClassName("content");
-        for (var i = 0; i < contents.length; i++) {
-            contents[i].style.display = "none";
-        }
-        // 显示所选的课程内容
-        var selectedContent = document.getElementById(courseId);
-        if (selectedContent) {
-            selectedContent.style.display = "block";
-        }
-    }
 
-    // 显示选定的 PDF
-    function showPDF(pdfUrl) {
-        document.getElementById("pdfFrame").src = pdfUrl;
-    }
-  </script>
-</head>
-<body>
-
-<!-- 顶层课程按钮 -->
-<div style="margin-bottom: 20px;">
-  <button onclick="toggleContent(\'P8144\')">P8144: Pharmaceutical Statistics</button>
-  <button onclick="toggleContent(\'P8140\')">P8140: Introduction to Randomized Clinical Trials</button>
+<div id="P8144">
+<h2>P8144: Pharmaceutical Statistics</h2>
+<p>课程的介绍内容...</p>
 </div>
 
-<!-- P8144 课程内容 -->
-<div id="P8144" class="content">
-  <h2>P8144: Pharmaceutical Statistics</h2>
-  <p>这门课介绍了药物统计学的基本原理和应用，包括药物研发中的统计设计与分析。</p>
-  <button onclick="showPDF(\'pdfs/P8144_project1.pdf\')">查看 Project 1 PDF</button>
-  <button onclick="showPDF(\'pdfs/P8144_project2.pdf\')">查看 Project 2 PDF</button>
+<div id="P8140">
+<h2>P8140: Introduction to Randomized Clinical Trials</h2>
+<p>课程的介绍内容...</p>
 </div>
 
-<!-- P8140 课程内容 -->
-<div id="P8140" class="content">
-  <h2>P8140: Introduction to Randomized Clinical Trials</h2>
-  <p>这门课介绍了随机化临床试验的设计与实施，包括控制组、样本量计算等重要内容。</p>
-  <button onclick="showPDF(\'pdfs/P8140_project1.pdf\')">查看 Project 1 PDF</button>
-  <button onclick="showPDF(\'pdfs/P8140_project2.pdf\')">查看 Project 2 PDF</button>
-</div>
-
-<!-- PDF 显示区域 -->
-<iframe id="pdfFrame" width="100%" height="500px" style="margin-top: 20px;">
-  This browser does not support PDFs. Please download the PDF to view it: <a href="">Download PDF</a>.
-</iframe>
-
-</body>
-</html>
-')
 
