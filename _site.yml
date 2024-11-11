@@ -9,9 +9,9 @@ navbar:
     - text: "Academic Projects"
       menu:
         - text: "P8144: Pharmaceutical Statistics"
-          href: about.html#P8144
+          href: about.html
         - text: "P8140: Introduction to Randomized Clinical Trials"
-          href: about.html#P8140
+          href: about.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<rl3401@cumc.columbia.edu>
