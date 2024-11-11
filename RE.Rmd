@@ -1,6 +1,7 @@
 ---
 title: "Publications & Research Experience"
 output: html_document
+site: "_site.yml"
 ---
 
 ```{r setup, include=FALSE}

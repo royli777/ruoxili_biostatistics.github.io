@@ -4,6 +4,7 @@ output:
   html_document:
     toc: true
     toc_float: true
+site: "_site.yml"
 ---
 
 ## General Information
@@ -19,4 +20,4 @@ I am Ruoxi Li, a graduate student specializing in Biostatistics at Columbia Univ
 3. I have a cow cat in China.
 ![](kitty.jpg)
 
-Learn more about my academic and professional experience: [resume](change to updated resume)
+Learn more about my academic and professional experienceaaa: [resume](change to updated resume)

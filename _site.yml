@@ -4,6 +4,7 @@ output_dir: "."
 navbar:
   title: "Home"
   type: default
+
   left:
     - text: "Publications & Research Experience"
       href: RE.html

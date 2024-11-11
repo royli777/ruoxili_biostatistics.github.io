@@ -1,6 +1,7 @@
 ---
 title: "P8140: Introduction to Randomized Clinical Trials"
 output: html_document
+site: "_site.yml"
 ---
 
 ```{r setup, include=FALSE}
